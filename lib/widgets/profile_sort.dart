@@ -8,7 +8,7 @@ class ProfileSort extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
-      padding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 8.h),
+      padding: EdgeInsets.only(left: 16.w, right: 16.w, bottom: 6.h),
       child: Row(
         children: [
           _SortButton(

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:ystask/new/new_profile_screen.dart';
 import 'package:ystask/profile_screen.dart';
+import 'package:ystask/profile_screen_1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +23,8 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: ProfileScreen(),
+      child: ProfileScreen1(),
+      // child: NewProfileScreen(),
     );
   }
 }

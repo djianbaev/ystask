@@ -8,6 +8,7 @@ class ProfileHeaderMin extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 16.w),
+      color: const Color(0xFFF6F8FA),
       child: Row(
         children: [
           GestureDetector(
